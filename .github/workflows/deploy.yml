@@ -18,8 +18,8 @@ jobs:
           file: index.html
 
   validate-css:
-    runs-on: ubuntu-latest
-    steps:
+  runs-on: ubuntu-latest
+  steps:
     - name: Checkout del código
       uses: actions/checkout@v3
 
